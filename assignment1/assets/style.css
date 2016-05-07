@@ -1,0 +1,238 @@
+body{
+	background-image: url("../images/weather.png");
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color:#777777;
+	position: relative;	
+	height:1000px;
+}
+footer{
+	position: absolute;
+	background: #666666;
+	clear:both;
+	text-align: center;
+	height: 70px;
+	width:100%;
+	bottom: 0px;
+	border-top: 10px solid #4aaaa5;
+}
+footer p{
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+	left: 50px;
+}
+
+a{
+	color: #666666;
+}
+
+h2{
+	color:#4aaaa5;
+	margin: 10 auto;
+}
+.Header{
+	position:relative;
+	height:65px;
+	background:#ffffff;
+	color: #ffffff;	
+	width:100%;
+	border-bottom: 2px solid #cccccc;
+	border-top:1000px;
+	margin:0 auto;
+	top:0px;
+	text-align: center;
+}
+.name{
+	background:#4aaaa5;
+	width: 300px;
+	height:100%;
+	color:#ffffff;
+	position:absolute;
+	bottom:0px;
+	left:30px;
+}
+.links{
+	position: absolute;
+	background:#ffffff;
+	right:30px;
+	top:20px;
+	text-align:center;
+}
+
+.Main-body{
+	clear:both;
+	position:relative;
+	top: 0px;
+	width: 960px;
+	height:560px;
+	padding-top: 50px;
+	padding-bottom:60px;
+	margin: 0 auto;
+}
+.icons{
+	color:#4aaaa5;
+	height: 200px;
+	width: 268px;
+	float:right;
+	position:absolute;
+	text-align: center;
+	right:0px;
+	top:40px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+}
+.box{
+	position:absolute;
+	bottom:35px;
+	right:15px;
+}
+.box img{
+	height:65px;
+	width:65px;
+	padding: 5px;
+}
+.container-about{
+	background:#ffffff;
+	border: 1px #dddddd solid;
+	position: absolute;
+	width: 620px;
+	height:672px;
+	padding-right: 0;
+	left:0;
+	text-align:left;
+}/* container for About &  */
+.me{
+	height: 200px;
+	width:200px;
+	float:left;
+	padding-left: 20px;
+	padding-right:20px;
+}
+.float{
+	float:left;
+	height:100%;
+	width:8px;
+}
+.paragraph{
+	border: 10px;
+	border-top:2px;
+	width:600px;
+	right:120px;
+	line-height:2;
+	word-wrap: break-word;
+}
+.container-contact{
+	background:#ffffff;
+	border: 1px #dddddd solid;
+	position:relative;
+	left:30px;
+	width: 550px;
+	height:472px;
+	margin: -10px;
+	padding:10px;
+	text-align:left;
+}
+.container-portfolio{
+	background:#ffffff;
+	border: 1px #dddddd solid;
+	position:relative;
+	left:0px;
+	width: 575px;
+	height:622px;
+	margin: -10px;
+	text-align:left;
+}
+.h2{
+	padding-left:30px;
+}
+.line{
+	border: 1px #dddddd solid;
+	margin-bottom:10px;
+	width:cal(50%);
+}
+.form{
+	width: 500px;
+	padding-left: 30px;
+	padding right: 0px;
+}
+
+.form-sub{
+	width:100px;
+	height:30px;
+	background:#4aaaa5;
+	vertical-align: top;
+	font-weight: bold;
+	font-size: large;
+	color:#ffffff;
+}
+.form-sub:focus{
+	background:lightgray;
+}
+.input{
+	width: calc(100%);
+    margin:0;
+    height:30px;
+    float:left;
+}
+.input:focus{
+	background:lightgray;
+}
+#message{
+	height:100px;
+	width: calc(100%);
+	margin:0;
+    padding:0;
+    height:200px;
+    float:left;
+}
+#message:focus{
+	background: lightgray ;
+}
+.projects{
+	float:left;
+	position: relative;
+	height: 140px;
+	width: 215px;
+	margin: 20px;
+	left:10px;
+}
+.projects img{
+	position:absolute;
+	width:215px;
+	height:140px;
+}
+.project_name{
+	position:absolute;
+	width:100%;
+	height:35px;
+	left:10px;
+	bottom:20px;
+	background-color: #4aaaa5;;
+	text-align: center;
+	font-weight:normal;
+	color:#ffffff;
+	margin:-10px;
+}
+.h9{
+	position: absolute;
+	top: 5px;
+	right:25px;
+	left:25px;
+}
+@media screen(max-width: 980px){
+
+	
+}
+
+@media screen(max-width: 768px){
+
+}
+
+@media screen(max-width: 640px){
+	.header{
+		position:static;
+	}
+}
+
+
+
