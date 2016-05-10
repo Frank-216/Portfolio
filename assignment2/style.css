@@ -1,3 +1,7 @@
+.spacing{
+	height:20px;
+}
+
 .btn-default{
 	background:#4aaaa5;
 	color:#ffffff;
@@ -48,16 +52,21 @@
 }
 .images{
 	height:170px;
-	width:100%;
+	width: 210px;
 	padding:5px;
 }
 .text-banner{
 	position:absolute;
-	left:0;
+	left:10px;
+	bottom:20px;
 	color:#ffffff;
+	text-align: center;
 	background-color: #4aaaa5;
-	width:inherit;
+	width:190px;
 	z-index: 1;
+}
+.relative{
+	position: relative;
 }
 
 .gap-right{
