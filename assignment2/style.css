@@ -3,6 +3,9 @@
 	color:#ffffff;
 
 }
+.navbar{
+	margin-bottom: 0;
+}
 .bg-success{
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -45,7 +48,7 @@
 }
 .images{
 	height:170px;
-	width:220px;
+	width:100%;
 	padding:5px;
 }
 .text-banner{
